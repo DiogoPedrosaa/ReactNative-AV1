@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { Button, StyleSheet, Text, View } from 'react-native';
+import { Loginscreen } from './src/screens/login';
+import { Registerscreen } from './src/screens/register/register';
+import {MenuScreen} from './src/screens/mainmenu/menu';
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  
+
+    return (<Loginscreen />);
 }
 
 const styles = StyleSheet.create({
@@ -16,5 +15,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  btnalert: {
+    backgroundColor: 'red',
+    color: 'white',
+    padding: 10,
+    borderRadius: 5
   },
 });
