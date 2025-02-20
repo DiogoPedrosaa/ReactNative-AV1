@@ -3,6 +3,8 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 import { Loginscreen } from './src/screens/login';
 import { Registerscreen } from './src/screens/register/register';
 import {MenuScreen} from './src/screens/mainmenu/menu';
+import {AtlasScreen} from './src/screens/atlas/atlas'
+import { BuildsScreen } from './src/screens/builds/metabuilds';
 export default function App() {
   
 
